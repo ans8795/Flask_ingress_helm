@@ -1,0 +1,7 @@
+# Chart.yaml
+
+apiVersion: v2
+name: my-helm-chart
+description: A Helm chart for deploying Flask app with AWS Ingress Controller
+version: 0.1.0
+
