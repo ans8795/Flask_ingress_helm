@@ -89,7 +89,7 @@ spec:
       containers:
       - args:
         - --ingress-class=alb
-        - --cluster-name=eks-test-cluster
+        - --cluster-name=test-eks-cluster
         image: docker.io/amazon/aws-alb-ingress-controller:v2.1.0
         name: controller
       terminationGracePeriodSeconds: 60
