@@ -90,6 +90,7 @@ spec:
       - args:
         - --ingress-class=alb
         - --cluster-name=test-eks-cluster
-        image: docker.io/amazon/aws-alb-ingress-controller:v2.1.0
+        #image: docker.io/amazon/aws-alb-ingress-controller:v2.1.0
+        image: public.ecr.aws/eks/aws-load-balancer-controller:v2.5.4
         name: controller
       terminationGracePeriodSeconds: 60
